@@ -24,6 +24,7 @@ vim.g.maplocalleader = "\\"
 local opts = {}
 
 -- Setup lazy.nvim
-require("vim-options")
+require("options")
+require("keymaps")
 require("lazy").setup("plugins")
 
